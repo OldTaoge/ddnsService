@@ -85,10 +85,3 @@ class AliAPI:
             "info": response,
             "status": 0
         }
-
-
-if __name__ == "__main__":
-    Alidns = AliAPI('LTAI4GHFLEJ6WVbf2AejQoT8', 'CwEMs9QFLnWeMRACxDrb80gOilI0BI')
-    print(Alidns.GetRec("node.oldtaoge.space"))
-    # print(Alidns.UpdateRec(19679127112464384, 'cn-qd-dx', 'AAAA', '::3', 'default'))
-    # print(Alidns.LineToLine["cm"])
